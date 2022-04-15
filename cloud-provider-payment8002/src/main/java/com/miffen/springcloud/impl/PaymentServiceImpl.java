@@ -1,10 +1,11 @@
-package com.miffen.cloud.impl;
+package com.miffen.springcloud.impl;
 
-import com.miffen.cloud.dao.PaymentDao;
-import com.miffen.cloud.service.PaymentService;
+import com.miffen.springcloud.dao.PaymentDao;
 import com.miffen.springcloud.model.CommonResult;
 import com.miffen.springcloud.model.Payment;
+import com.miffen.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -17,6 +18,9 @@ import javax.annotation.Resource;
 @Slf4j
 @Service
 public class  PaymentServiceImpl implements PaymentService {
+
+    @Value("${server.port}")
+    private String serverPort;
     @Resource
     private PaymentDao paymentDao;
 

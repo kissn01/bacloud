@@ -2,16 +2,16 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
   <parent>
-    <artifactId>bacloud</artifactId>
     <groupId>com.miffen.springcloud</groupId>
+    <artifactId>bacloud</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>cloud-provider-payment8001</artifactId>
+  <artifactId>cloud-provider-payment8002</artifactId>
 
+  <name>cloud-provider-payment8002</name>
   <properties>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>

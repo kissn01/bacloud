@@ -1,4 +1,4 @@
-package com.miffen.cloud.dao;
+package com.miffen.springcloud.dao;
 
 import com.miffen.springcloud.model.Payment;
 import org.apache.ibatis.annotations.Mapper;

@@ -1,4 +1,4 @@
-package com.miffen.cloud.service;
+package com.miffen.springcloud.service;
 
 
 import com.miffen.springcloud.model.CommonResult;
