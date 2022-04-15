@@ -1,11 +1,11 @@
-package com.miffen.cloud.model;
+package com.miffen.springcloud.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @Author: kiss
+ * @Author: kiss 1231
  * @Date: 2022-04-14 18:34
  * @Desc:
  */

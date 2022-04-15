@@ -1,4 +1,4 @@
-package com.miffen.cloud.model;
+package com.miffen.springcloud.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
